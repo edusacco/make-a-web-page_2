@@ -1,0 +1,60 @@
+body {
+	padding: 35px 20px;
+	font-family: calibry;
+	max-width: 1800px;
+	margin: 10px 10px; /* The first 10px refers to the top and bottom margins and the second one to the left and right margins */
+	font-size: 125%;
+}   
+
+h1 {
+	text-align: center;
+  color: #013ADF;
+  } 
+/*Add a different color to h1 headings*/
+p {
+	margin: 1em;
+}
+
+li {
+	font-size: 22px;
+	line-height: 46px; /* each line of text should occupy 46 pixels of height (good for mobile usage and fat fingers) */
+}
+
+.lesson {
+	background-color: #013ADF;
+  /* make this color lighter*/
+  color: white;
+  border-radius: 12px;
+	padding: 10px;
+	margin: 10px auto;
+}
+/* auto is replaced by some suitable value, e.g. it can be used for centering of blocks. For instance, div { width:50%;  margin:0 auto; } centers the div container horizontally.*/
+
+/*.Wikipedia {color: white;
+} How to make the link wikipedia appear in a different color?*/
+
+.concept {
+	background-color: white;
+  /*Add a different color to h1 headings*/
+	padding: 4px;
+	margin: 10px;
+	border-radius: 4px;
+	color: black;
+}
+
+.concept-title {
+	font-size: 28px;
+	margin: 12px;
+	text-align: center;
+	color: #013ADF;
+}
+
+.concept-description {
+	font-weight: lighter;
+	margin: 12px;
+}
+
+
+a {
+	color:#336699;
+} 
