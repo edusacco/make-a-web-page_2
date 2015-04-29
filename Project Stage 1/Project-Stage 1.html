@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<!-- This is an HTML comment -->
+<html>
+  
+  <head>  
+    <title> EDDIE's NOTES </title>
+      <link rel="stylesheet" href="style.css">
+        <style>
+          .textwrap {
+              float: right;
+              margin: 10px; 
+            }
+        </style>
+  
+<!-- I added this in case I need to wrap text around an image -->
+
+  </head>
+  <body>
+    <div class="Index">
+      <h1>Table of Contents</h1>
+      <ol>
+        <li class="TOC-lesson"><a href="#lesson-1">Lesson 1: Fundamentals of the Web and HTML</a>
+          <ul>
+          <li><a href="#lesson-1-1">Basic concepts</a></li>
+          <li><a href="#lesson-1-2">Thinking like a Programmer</a></li>
+          </ul>
+        </li>
+        <li class="TOC-lesson"><a href="#lesson-2">Lesson 2: Webpages, Documents and Structure</a>
+          <ul>
+            <li><a href="#lesson-2-1">HTML, CSS and Java Script Files</a></li>
+            <li><a href="#lesson-2-2">HTML's "Tree Like" Structure</a></li>
+            <li><a href="#lesson-2-3">Text Editors</a></li>
+          </ul>
+        </li>
+        <li class="TOC-lesson"><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a>
+          <ul>
+            <li><a href="#lesson-3-1">Understanding CSS</a></li>
+            <li><a href="#lesson-3-2">Inheritance and Avoiding Repetition</a></li>
+            <li><a href="#lesson-3-3">Identation</a></li>
+            <li><a href="#lesson-3-4">How to include "CSS Styling" in a Webpage</a></li>
+            <li><a href="#lesson-3-5">The Box Model</a></li>
+          </ul>
+        </li>
+      </ol>
+     <!--Review the use of "ul", li" and "ol"-->
+    </div>
+    <h1>INTRODUCTION TO PROGRAMMING</h1>
+<!-- This is my first attemp to write HTML code -->
+    <div class="lesson">
+        <h2 id="lesson-1"> Lesson 1: Fundamentals of the Web and HTML </h2>
+      <div class="concept" id="lesson-1-1">    
+        <div class="concept-title">
+          <h3>Basic Concepts</h3>
+        </div>
+        <div class="concept-description">
+          <p>
+          <i><b> The World Wide Web (or the Web):</b></i>The World Wide Web (www) is an information system of interlinked hypertext documents-it's sort of a collection of <em>HTML documents</em>-that are accessed via the Internet. It has also commonly become known simply as the Web. Each file on the web can be located through its uniform resource locator (or URL). For more on the world wide web see <a href="http://en.wikipedia.org/wiki/World_Wide_Web">[Wikipedia]</a>.
+ 
+          </P>
+          <div>
+            <p>
+              <i> <b> The Internet:</b> </i>The Internet is a global system of interconnected computer networks that use the standard Internet protocol suite (TCP/IP) to link several billion devices worldwide. </p> 
+          </div>
+          <div>
+            <p>
+              <i> <b> Web Pages:</b> </i>Individual document pages on the World Wide Web are called web pages-there are over 30 billion pages. Web pages may contain text, images, videos, and other multimedia components, as well as web navigation features consisting of <em>hyperlinks</em>.
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <i> <b> Web Browser:</b> </i> Web pages are accessed with a software application running on the user's computer, commonly called a <em>web browser</em>. 
+            </p>
+          </div>
+
+          <div>
+            <p>
+              <i><b>Hypertext Markup Language (HTML):</b></i> HyperText Markup Language, commonly referred to as HTML, is the standard markup language used to create web pages. It is written in the form of HTML elements consisting of tags enclosed in angle brackets. HTML is made up of text content, markups-made up of things called tags, references to other documents, images, videos and links to other pages. HTML documents contain text content which describes "what you see" and markup which describes "how it looks" when, for instance, you visit a web page. For a more thorough  explanation <a href="https://www.youtube.com/watch?v=CKlh1lwe2rY"> click here </a>.
+            </p>
+          </div>
+          <div>  
+            <p>
+              <i> <b> Html Tags and Elements:</b> </i> HTML documents are made of HTML <u>elements</u>. An HTML <u>element</u> refers to everything within a set of opening and closing tags. <p> When writing HTML, we tell browsers the type of each element by using HTML tags. An explanation of how this works can be found by <a href="https://www.udacity.com/course/viewer/?mkt_tok=3RkMMJWWfF9wsRokvKzBZKXonjHpfsX66u0sXKawlMI%2F0ER3fOvrPUfGjI4DSsVkI%2BSLDwEYGJlv6SgFTLHGMbdlwLgJWBg%3D#!/c-nd000/l-3851658626/m-3847388548">clicking here</a>. Examples of tags are: "b" for bold, "i" for italics, "em" for emphasis-italics, "p" for paragraph, "a" for anchor, "br" for break or void tag, "img" for images. <p>Tags can have one or more <u>attributes</u>. An <u>attribute</u> is a property of an HTML element. 
+            </p>
+          </div>
+          <div>
+            <p>
+              <i><b>Inline vs Block Elements:</b></i> HTML elements are either inline or block. While <em>Inline</em> elements look linear, <em>Block</em> elements form an "invisible box" around the content inside of them.
+            </p>
+          </div>
+          <div class="concept" id="lesson-1-2">
+            <div class="concept-title">
+              <h3>Thinking Like a Programmer</h3>
+            </div>
+            <div class="concept-description">
+            <p>  
+              To think like a programmer you must develop <i>procedural thinking</i>, <i>abstract thinking</i>, <i>systematic debugging</i> (the skill through which programmers identify problems and/or potential problems and then track down potential causes for those problems until they are found and fixed), <i>technological empathy</i> (understanding how a computer see things), and <i>systems thinking</i> (the ability to take one big idea and break it down into its component pieces).
+            </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+  <div class="lesson">
+      <h2 id="lesson-2"> Lesson 2: Webpages, Documents and Structure</h2>
+    <div class="concept" id="lesson-2-1">
+      <div class="concept-title">
+        <h3>HTML, CSS and Java Script Files</h3>
+      </div>
+      <div class="concept-description">
+      <p>
+        <em>HTML files</em> control the structure of a webpage, while <em>CSS files</em> are used to add style to a webpage (control how it looks) and <em>Java Script files</em> represent interactive components of the page.
+      </p>
+
+        <div class="concept" id="lesson-2-2">
+          <div class="concept-title"><h3>HTML's "Tree Like" Structure
+          </h3></div>
+          <div class="concept-description">  
+            <p>
+              Typically programmers talk about the Document Object Model or "DOM" to refer to the tree like structure of a webpage. In general terms a tree structure or tree diagram is just a way of representing a structure in graphical form through layers or stages (branches). 
+            </P>
+            <p>
+              Each HTMl tag creates an element in the DOM that the browser uses to display the page. An element is created from the starting tag to the ending tag and everything in between is content. The content can be empty, it can be text  or it can be another element. Each tag has a name or type that defines what kind of element will be created. Each tag can also have attributes with values. To tie structure and style together the HTML document can provide the browser with information on what style to use and where to get it.
+            </P>
+          </div>
+        </div>
+        <div class="concept" id="lesson-2-3">
+          <div class="concept-title"><h3>Text Editors</h3>
+          </div>
+          <div class="concept-description"> 
+      
+            <p>
+              When writing code, programmers use special text editors. Some of them are Codepen, Scratchpad and Sublime. Some text editors give you automatic feedback while others need to be refreshed, others will automatically generate a closing HTML tag when you write an opening tag, some can handle just two or three languages-Scratchpad handles HTML and CSS while Codepen can handle HTML, CSS and Java Script-while some others like Sublime are more powerful and can understand any language.
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="lesson">
+    <h2 id="lesson-3">Lesson 3: Adding CSS Style Structure</h2>
+    <div class="concept" id="lesson-3-1">
+      <div class="concept-title">
+        <h3>Understanding CSS</h3>
+      </div>
+    <div class="concept-description">
+      <p>
+        Cascading Style Sheets or <em>"CSS"</em> files/sheets are code written to control the style of HTML elements. One can have several CSS files or sheets that will be referenced in HTML. With CSS the most specific rule is applied to every element (<em>Cascading</em>). 
+      </P>
+      
+      <p>
+        In CSS you first write what is called a selector, which defines to what elements of the page, a particular style will apply. Another way to do so is to select elements by class. If you want to apply style to a class called "description"you do so by typing ".description {}" and inside the brackets you write the style in form of an attribute calling value. You can also combine slectors, so for example, you could select all links that are inside an element with the class "article". 
+      </p>
+  
+      <div class="concept" id="lesson-3-2">
+        <div class="concept-title"><h3>Inheritance and Avoiding Repetition</h3>
+        </div>
+        <div class="concept-description"> 
+          <p>
+            Inheritances is the mechanism by which properties are applied not only to a specified element but also its descendants. This concept relies on the document tree, which is the hierarchy of HTML elements in a (web) page based on nesting. Descendent elements may inherit CSS property values from any ancestor alement enclosing them. In general, descendant elements inherit text-related properties, but box-related properties are not inherited. Inheritance allows certain properties from being declared over and over again in a tyle sheet, allowing software developers to write less CSS. It also enhances faster-loading of web pages while navigating. 
+          </P>
+                  <p> In general, inheritance and avoiding repetition could be thought as two sides of the same coin. In software engineering and programming language theory, the abstraction principle (or the principle of abstraction) is a basic dictum that aims to reduce duplication of information in a program (usually with emphasis on code duplication) whenever practical by making use of abstractions provided by the programming language or software libraries. Source:<a href="http://en.wikipedia.org/wiki/Abstraction_principle_%28computer_programming%29">[Wikipedia]</a>. Avoiding repetition reduces computation time, and also enhances faster-loading of web pages while navigating.
+                  </p>
+        </div>
+      </div>
+      <div class="concept" id="lesson-3-3">
+        <div class="concept-title"><h3>Identation</h3>
+        </div>
+        <div class="concept-description"> 
+          <p> 
+            In programming it refers to the nesting of related commands by creating a hierarchy similar to an outline used in English compositions classes. It is just a way of grouping  commands together that form a subroutine, function, etc. 
+          </P>
+        </div>
+      </div>
+
+      <div class="concept" id="lesson-3-4">
+        <div class="concept-title"><h3>How to include "CSS Styling" in a Web Page</h3>
+        </div>
+        <div class="concept-description"> 
+          <p>  
+            There are three methods to do this:  <u>a) Method 1:</u> Write CSS in the head of yor HTML. To do this, at the top of your HTML document, add a "head" element, then, inside the "head" element add a "style" element. Write your CSS in the style element and then write the HTML code for the rest of your page below; <u>b) Method 2:</u> Write all your structural HTML in one file-let's call it "main.html"; In a separate file, let's call it "main.css" put all your CSS code; Add a "head" element to the top of your HTML and then add a "link" tag inside the "head" element, and finally, add the following attributes to your link [link rel="stylesheet" * type="text/css" * href="main.css"]; <u>Method 3:</u> Write your style inline with your HTML. With this method you modify the style attributes of every individual HTML element. (This is generally a bad idea because it leads to a lot of repetead code).
+          </P>
+        </div>
+      </div>
+ 
+      <div class="concept" id="lesson-3-5">
+        <div class="concept-title"><h3>The Box Model</h3>
+        </div>
+        <div class="concept-description"> 
+          <p> 
+           HTML elements are boxes and each box has four components: The <u><em>content</em></u> in the most inner part of the box, the <u><em>padding</em></u> that clears an area around the content and it is affected by the background color of the box-one can think of it as the space inside the box that protects the content directly, <u><em>the border</em></u> that goes around the padding and the content, and the outer layer, the<u><em> margin</em></u> and this clears an area around the border. The <u><em> margin</em></u> doesn't have a background color and is completely transparent. Because there are many components to each box, it can often be hard to get the size of each box right. But there are two techniques one can use to deal with sizing: a) Set sizes in terms of percentages rather than pixels; b) Set the box-sizing to "border-box"for every element.
+          </p>
+          <p>
+            Regarding box positioning we must take into account that "Div's" are block ekements-as opposed to inline elements; so by default they take up the entire width of the page. By adding the rule "display:lex" to the appropriate CSS will override this behaviour and let div's appear next to each other.
+          </p>
+
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </body>
+</html>
+
